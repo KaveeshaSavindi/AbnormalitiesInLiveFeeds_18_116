@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0CF469C5-46EB-45DF-B2C9-84E48B47922E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WpfFaceDetectionTest</RootNamespace>
+    <AssemblyName>WpfFaceDetectionTest</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Emgu.CV, Version=2.2.1.1150, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Emgu.CV.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.Contrib">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Emgu.CV.Contrib.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.Cuda">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Emgu.CV.Cuda.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.DebuggerVisualizers.VS2010">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Emgu.CV.DebuggerVisualizers.VS2010.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.DebuggerVisualizers.VS2012">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Emgu.CV.DebuggerVisualizers.VS2012.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.DebuggerVisualizers.VS2013">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Emgu.CV.DebuggerVisualizers.VS2013.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.DebuggerVisualizers.VS2015">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Emgu.CV.DebuggerVisualizers.VS2015.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.ML">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Emgu.CV.ML.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.OCR">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Emgu.CV.OCR.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.Shape">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Emgu.CV.Shape.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.Stitching">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Emgu.CV.Stitching.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.Superres">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Emgu.CV.Superres.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI, Version=2.2.1.1150, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI.GL">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Emgu.CV.UI.GL.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.VideoStab">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Emgu.CV.VideoStab.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.Util, Version=2.2.1.1150, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Emgu.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="Example.CameraCapture">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Example.CameraCapture.exe</HintPath>
+    </Reference>
+    <Reference Include="Example.FaceDetection">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Example.FaceDetection.exe</HintPath>
+    </Reference>
+    <Reference Include="Example.HelloWorld">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Example.HelloWorld.exe</HintPath>
+    </Reference>
+    <Reference Include="Example.LicensePlateRecognition">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Example.LicensePlateRecognition.exe</HintPath>
+    </Reference>
+    <Reference Include="Example.MotionDetection">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Example.MotionDetection.exe</HintPath>
+    </Reference>
+    <Reference Include="Example.OCR">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Example.OCR.exe</HintPath>
+    </Reference>
+    <Reference Include="Example.PedestrianDetection">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Example.PedestrianDetection.exe</HintPath>
+    </Reference>
+    <Reference Include="Example.PlanarSubdivision">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Example.PlanarSubdivision.exe</HintPath>
+    </Reference>
+    <Reference Include="Example.ShapeDetection">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Example.ShapeDetection.exe</HintPath>
+    </Reference>
+    <Reference Include="Example.SURFFeature">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Example.SURFFeature.exe</HintPath>
+    </Reference>
+    <Reference Include="Example.TrafficSignRecognition">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Example.TrafficSignRecognition.exe</HintPath>
+    </Reference>
+    <Reference Include="Example.VideoSurveilance">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\Example.VideoSurveilance.exe</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="ZedGraph">
+      <HintPath>..\..\..\..\libemgucv-windows-universal-3.0.0.2157\bin\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Emgu.CV.World.NetStandard1_4.dll" />
+    <Content Include="opencv_ffmpeg220.dll" />
+    <Resource Include="box.png" />
+    <Resource Include="box_in_scene.png" />
+    <Content Include="cvextern.dll" />
+    <Content Include="cvextern_test.exe" />
+    <Content Include="Emgu.CV.Contrib.dll" />
+    <Content Include="Emgu.CV.Cuda.dll" />
+    <Content Include="Emgu.CV.DebuggerVisualizers.VS2008.dll" />
+    <Content Include="Emgu.CV.GPU.dll" />
+    <Resource Include="Emgu.CV.GPU.xml" />
+    <Resource Include="Emgu.CV.License.txt" />
+    <Content Include="Example.CameraCapture.exe" />
+    <Content Include="Example.FaceDetection.exe" />
+    <Content Include="Example.HelloWorld.exe" />
+    <Content Include="Example.MotionDetection.exe" />
+    <Content Include="Example.PedestrianDetection.exe" />
+    <Content Include="Example.PlanarSubdivision.exe" />
+    <Content Include="Example.ShapeDetection.exe" />
+    <Content Include="Example.Simple3DReconstruction.exe" />
+    <Content Include="Example.SURFFeature.exe" />
+    <Content Include="Example.TrafficSignRecognition.exe" />
+    <Content Include="Example.VideoSurveilance.exe" />
+    <Content Include="Example.Webservice_Client.exe" />
+    <Content Include="Example.Webservice_Host.exe" />
+    <Resource Include="haarcascade_frontalface_alt_tree.xml" />
+    <Resource Include="lena.jpg" />
+    <Content Include="opencv_calib3d220.dll" />
+    <Content Include="opencv_contrib220.dll" />
+    <Content Include="opencv_core220.dll" />
+    <Content Include="opencv_createsamples.exe" />
+    <Content Include="opencv_features2d220.dll" />
+    <Content Include="opencv_flann220.dll" />
+    <Content Include="opencv_gpu220.dll" />
+    <Content Include="opencv_haartraining.exe" />
+    <Content Include="opencv_highgui220.dll" />
+    <Content Include="opencv_imgproc220.dll" />
+    <Content Include="opencv_legacy220.dll" />
+    <Content Include="opencv_ml220.dll" />
+    <Content Include="opencv_objdetect220.dll" />
+    <Content Include="opencv_performance.exe" />
+    <Content Include="opencv_traincascade.exe" />
+    <Content Include="opencv_video220.dll" />
+    <Resource Include="pedestrian.png" />
+    <Resource Include="pic3.png" />
+    <Resource Include="stop-sign-model.png" />
+    <Resource Include="stop-sign.jpg" />
+    <Resource Include="ZedGraph.license.txt" />
+    <Resource Include="Emgu.CV.Cuda.xml" />
+    <Content Include="Emgu.CV.DebuggerVisualizers.VS2010.dll" />
+    <Content Include="Emgu.CV.DebuggerVisualizers.VS2012.dll" />
+    <Content Include="Emgu.CV.DebuggerVisualizers.VS2013.dll" />
+    <Content Include="Emgu.CV.DebuggerVisualizers.VS2015.dll" />
+    <Content Include="Emgu.CV.dll" />
+    <Content Include="Emgu.CV.ML.dll" />
+    <Resource Include="Emgu.CV.ML.xml" />
+    <Content Include="Emgu.CV.OCR.dll" />
+    <Resource Include="Emgu.CV.OCR.xml" />
+    <Content Include="Emgu.CV.Shape.dll" />
+    <Resource Include="Emgu.CV.Shape.xml" />
+    <Content Include="Emgu.CV.Stitching.dll" />
+    <Resource Include="Emgu.CV.Stitching.xml" />
+    <Content Include="Emgu.CV.Superres.dll" />
+    <Resource Include="Emgu.CV.Superres.xml" />
+    <Content Include="Emgu.CV.UI.dll" />
+    <Content Include="Emgu.CV.UI.GL.dll" />
+    <Resource Include="Emgu.CV.UI.GL.xml" />
+    <Resource Include="Emgu.CV.UI.xml" />
+    <Content Include="Emgu.CV.VideoStab.dll" />
+    <Resource Include="Emgu.CV.VideoStab.xml" />
+    <Resource Include="Emgu.CV.xml" />
+    <Content Include="Emgu.Util.dll" />
+    <Resource Include="Emgu.Util.xml" />
+    <Resource Include="haarcascade_eye.xml" />
+    <Resource Include="haarcascade_frontalface_default.xml" />
+    <Content Include="ZedGraph.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
