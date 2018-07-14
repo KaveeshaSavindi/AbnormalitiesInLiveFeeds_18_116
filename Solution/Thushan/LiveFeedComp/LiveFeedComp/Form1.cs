@@ -32,8 +32,7 @@ namespace LiveFeedComp
 
         Graphics g;
         Bitmap video;
-        int mode;
-        int cap;
+        int mode;      
         int Red, Green, Blue;       
         float f;
         bool OnOff = false;
