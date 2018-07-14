@@ -1,0 +1,54 @@
+c:\users\thushan\documents\visual studio 2010\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\LiveFeedComp.exe
+c:\users\thushan\documents\visual studio 2010\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\LiveFeedComp.pdb
+c:\users\thushan\documents\visual studio 2010\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.dll
+c:\users\thushan\documents\visual studio 2010\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Imaging.dll
+c:\users\thushan\documents\visual studio 2010\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Video.DirectShow.dll
+c:\users\thushan\documents\visual studio 2010\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Video.dll
+c:\users\thushan\documents\visual studio 2010\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Math.dll
+c:\users\thushan\documents\visual studio 2010\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.xml
+c:\users\thushan\documents\visual studio 2010\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Imaging.xml
+c:\users\thushan\documents\visual studio 2010\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Video.xml
+c:\users\thushan\documents\visual studio 2010\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Video.DirectShow.xml
+c:\users\thushan\documents\visual studio 2010\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Math.xml
+c:\users\thushan\documents\visual studio 2010\Projects\LiveFeedComp\LiveFeedComp\obj\x86\Debug\LiveFeedComp.csprojResolveAssemblyReference.cache
+c:\users\thushan\documents\visual studio 2010\Projects\LiveFeedComp\LiveFeedComp\obj\x86\Debug\LiveFeedComp.Form1.resources
+c:\users\thushan\documents\visual studio 2010\Projects\LiveFeedComp\LiveFeedComp\obj\x86\Debug\LiveFeedComp.Properties.Resources.resources
+c:\users\thushan\documents\visual studio 2010\Projects\LiveFeedComp\LiveFeedComp\obj\x86\Debug\LiveFeedComp.csproj.GenerateResource.Cache
+c:\users\thushan\documents\visual studio 2010\Projects\LiveFeedComp\LiveFeedComp\obj\x86\Debug\LiveFeedComp.exe
+c:\users\thushan\documents\visual studio 2010\Projects\LiveFeedComp\LiveFeedComp\obj\x86\Debug\LiveFeedComp.pdb
+C:\Users\THUSHAN\Documents\Visual Studio 2010\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Vision.dll
+C:\Users\THUSHAN\Documents\Visual Studio 2010\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Vision.xml
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\LiveFeedComp.exe
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\LiveFeedComp.pdb
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.dll
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Imaging.dll
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Video.DirectShow.dll
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Video.dll
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Vision.dll
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Math.dll
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.xml
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Imaging.xml
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Video.xml
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Video.DirectShow.xml
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Vision.xml
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\AForge.Math.xml
+E:\Projects\LiveFeedComp\LiveFeedComp\obj\x86\Debug\LiveFeedComp.csprojAssemblyReference.cache
+E:\Projects\LiveFeedComp\LiveFeedComp\obj\x86\Debug\LiveFeedComp.Form1.resources
+E:\Projects\LiveFeedComp\LiveFeedComp\obj\x86\Debug\LiveFeedComp.Properties.Resources.resources
+E:\Projects\LiveFeedComp\LiveFeedComp\obj\x86\Debug\LiveFeedComp.csproj.GenerateResource.cache
+E:\Projects\LiveFeedComp\LiveFeedComp\obj\x86\Debug\LiveFeedComp.csproj.CoreCompileInputs.cache
+E:\Projects\LiveFeedComp\LiveFeedComp\obj\x86\Debug\LiveFeedComp.csproj.CopyComplete
+E:\Projects\LiveFeedComp\LiveFeedComp\obj\x86\Debug\LiveFeedComp.exe
+E:\Projects\LiveFeedComp\LiveFeedComp\obj\x86\Debug\LiveFeedComp.pdb
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\ZedGraph.dll
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2012.dll
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2013.dll
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2015.dll
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2017.dll
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\Emgu.CV.UI.dll
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\Emgu.CV.UI.GL.dll
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\Emgu.CV.World.dll
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\Emgu.CV.UI.xml
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\Emgu.CV.UI.GL.xml
+E:\Projects\LiveFeedComp\LiveFeedComp\bin\Debug\Emgu.CV.World.xml
