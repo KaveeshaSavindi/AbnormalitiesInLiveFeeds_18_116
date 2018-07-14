@@ -62,11 +62,6 @@ namespace WpfFaceDetectionTest
 					}
 				}
 
-				//if (counter == 0)
-				//{
-				//	MessageBox.Show("No face detected!");
-				//}
-
 				image1.Source = ToBitmapSource(currentFrame);
             }
             
